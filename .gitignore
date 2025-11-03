@@ -1,0 +1,50 @@
+# Unreal Engine 5 - recommended ignores
+# Visual Studio / IDE
+.vs/
+.vscode/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.sdf
+*.ipch
+*.suo
+
+# Build / Intermediate
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Projects generated files
+*.openscene
+*.xcodeproj/
+*.xcworkspace/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.obj
+*.pdb
+
+# Unreal auto-generated folders
+*.xcuserstate
+
+# Misc
+.vagrant/
+node_modules/
+*.cmake
+
+# Ignore personal files
+*.sublime-workspace
+.idea/
+
+# Keep uproject and content, ignore local generated data
+# If you have source code in Source/, it should be tracked.
