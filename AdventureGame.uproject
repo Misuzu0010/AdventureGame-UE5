@@ -1,0 +1,61 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.6",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "AdventureGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "GamePlayStateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "Bridge",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosVD",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "Dataflow",
+			"Enabled": false
+		},
+		{
+			"Name": "MetaHumanSDK",
+			"Enabled": false
+		},
+		{
+			"Name": "Fab",
+			"Enabled": false
+		},
+		{
+			"Name": "EditorDataStorageFeatures",
+			"Enabled": true
+		}
+	]
+}
